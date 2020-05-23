@@ -23,6 +23,7 @@ public class AmazonWebsite {
 		// sign in arrow
 		WebElement signin = driver.findElement(By.xpath("(//span[@class='nav-icon nav-arrow'])[2]"));
 		a.moveToElement(signin).click().perform();
+		System.out.println("Akshaya");
 		
 		// after clicking login page open and inspect..
 		WebElement phno = driver.findElement(By.id("ap_email"));
